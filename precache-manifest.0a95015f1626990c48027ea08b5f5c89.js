@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7730109693a3cd95921ab1467a4c7d74",
+    "revision": "1a641b9b1e0aff2ce33f2dc8ca4ddaf7",
     "url": "/upnews/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/upnews/static/css/2.e062bc43.chunk.css"
   },
   {
-    "revision": "f85ac76a29f674e905f4",
+    "revision": "df0a2c6aaa6a0f612355",
     "url": "/upnews/static/css/main.e18836e0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/upnews/static/js/2.4d486ad4.chunk.js.LICENSE"
   },
   {
-    "revision": "f85ac76a29f674e905f4",
-    "url": "/upnews/static/js/main.0790a842.chunk.js"
+    "revision": "df0a2c6aaa6a0f612355",
+    "url": "/upnews/static/js/main.cdb142a0.chunk.js"
   },
   {
     "revision": "d32c8d74acb9d377bc3d",
