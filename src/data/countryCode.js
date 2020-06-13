@@ -1,0 +1,16 @@
+export const countryCode= {
+    us: "United States",
+    at: "Australia",
+    br: "Brasil",
+    ca: "Canada",
+    cn:"China",
+    gb: "Great Britain",
+    fr: "France",
+    de: "Germany",
+    it: "Italy",
+    jp: "Japan",
+    pt: "Portugal",
+    ru: "Russia",
+    ch: " Switzerland",
+    tr: "Turkey",
+}
