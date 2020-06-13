@@ -49,7 +49,7 @@ class App extends Component {
     this.setState({ loading: true });
     axios
       .get(
-        `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?category=${category}&country=${country}&pageSize=50`,
+        `https://newsapi.org/v2/top-headlines?category=${category}&country=${country}&pageSize=50`,
         {
           headers: {
             Authorization: "Bearer " + process.env.REACT_APP_NEWSAPI

@@ -10,7 +10,7 @@
 
 # production
 /build
-
+News website built with React, Materialize CSS and News API
 # misc
 .DS_Store
 .env.local

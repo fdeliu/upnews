@@ -31,7 +31,7 @@ class Search extends Component {
       loading: true
     });
     axios
-      .get(`https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=${this.state.searchWord}`, {
+      .get(`https://newsapi.org/v2/everything?q=${this.state.searchWord}`, {
         headers: {
           Authorization: "Bearer " + process.env.REACT_APP_NEWSAPI
         }
