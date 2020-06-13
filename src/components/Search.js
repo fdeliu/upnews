@@ -31,11 +31,7 @@ class Search extends Component {
       loading: true
     });
     axios
-      .get(`https://newsapi.org/v2/everything?q=${this.state.searchWord}`, {
-        headers: {
-          Authorization: "Bearer " + process.env.REACT_APP_NEWSAPI
-        }
-      })
+      .get(`https://newsapi.org/v2/everything?q=${this.state.searchWord}&apiKey=${process.env.REACT_APP_NEWSAPI}`)
       .then(result =>
         this.setState({
           searchResult: result.data.articles,

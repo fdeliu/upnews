@@ -49,13 +49,7 @@ class App extends Component {
     this.setState({ loading: true });
     axios
       .get(
-        `https://newsapi.org/v2/top-headlines?category=${category}&country=${country}&pageSize=50`,
-        {
-          headers: {
-            Authorization: "Bearer " + process.env.REACT_APP_NEWSAPI
-          }
-        }
-      )
+        `https://newsapi.org/v2/top-headlines?category=${category}&country=${country}&pageSize=50&apiKey=${process.env.REACT_APP_NEWSAPI}`)
       .then(result =>
         this.setState({
           news: result.data.articles,
